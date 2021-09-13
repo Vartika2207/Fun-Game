@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Day4/Day4.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h2 d="change-my-color">Change Color of All buttons</h2>
+        <div class="flex-box-pick-color">
+            <form action="none">
+                <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+                   <option value="random">Random</option>
+                   <option value="red">Red</option>
+                   <option value="green">Green</option>
+                   <option value="yellow">Yellow</option>
+                   <option value="blue">Blue</option>
+                   <option value="reset">Reset</option>
+                </select>
+            </form>
+
+            <button class="btn btn-primary">Wee!</button>
+            <button class="btn btn-danger">Yahoo!</button>
+            <!-- <button class="btn btn-pending">Google!</button> -->
+            <button class="btn btn-warning">Facebook!</button>
+            <button class="btn btn-success">Brave!</button>
+        </div>
+    </div>
+
+    <script src="/Day4/Day4.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.container{
+    border: 1px solid #333;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 75%;
+}
+
+.flex-box-pick-color{
+    display: flex;
+    flex-wrap: wrap;
+    size:initial;
+    margin: 3px;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+    border: 1.6px solid rgb(19, 121, 155);
+    
+}
+.flex-box-pick-color:hover{
+    border: 1.6px solid rgb(75, 6, 92);
+}
